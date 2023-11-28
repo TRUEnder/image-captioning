@@ -68,7 +68,7 @@ def beam_search_predictions(image, beam_index = 3):
 def generate_caption(input_image):
     image = encode(input_image)
     image = image.reshape((1, 2048))
-    return beam_search_predictions(image, beam_index=3)
+    return beam_search_predictions(image, beam_index=7)
 
 # GUI
 
